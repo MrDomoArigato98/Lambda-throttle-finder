@@ -28,3 +28,10 @@ Additionally you can get an aggregation on the below metrics per function by pas
 ```python3 list_throttles.py -pci```
 
 ```python3 list_throttles.py --ProvisionedConcurrencyInvocations```
+
+---
+
+Pull the repo and install the dependencies
+
+1. ```pip install -r requirements.txt```
+2. Run the command, it defaults to getting throttles ```python3 list_throttles.py```
