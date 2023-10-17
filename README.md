@@ -10,6 +10,7 @@ Other AWS Lambda metrics that are by default a SumStatistic can be gathered by t
 
 Additionally you can get an aggregation on the below metrics per function by passing any of these when calling the script:
 
+---
 --Invocations OR -i 
 
 --Errors OR -e
@@ -24,7 +25,7 @@ Additionally you can get an aggregation on the below metrics per function by pas
 
 --ProvisionedConcurrencySpilloverInvocations OR -pci
 
-Example
+**Example**
 
 ```python3 list_throttles.py -pci```
 
