@@ -11,11 +11,17 @@ Other AWS Lambda metrics that are by default a SumStatistic can be gathered by t
 Additionally you can get an aggregation on the below metrics per function by passing any of these when calling the script:
 
 --Invocations OR -i 
+
 --Errors OR -e
+
 --DeadLetterErrors OR -d
+
 --DestinationDeliveryFailures OR -dd
+
 --Throttles OR -t
+
 --ProvisionedConcurrencyInvocations OR -pc
+
 --ProvisionedConcurrencySpilloverInvocations OR -pci
 
 Example
